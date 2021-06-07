@@ -1,0 +1,23 @@
+{
+    "name": "pmc-wms",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "electron index.js",
+        "pack": "electron-builder --dir",
+        "dist": "electron-builder"
+    },
+    "build": {
+        "appId": "pmc.wms",
+        "mac": {
+            "category": "tools"
+        }
+    },
+    "devDependencies": {
+        "electron": "^12.0.1",
+        "electron-builder": "^22.10.5"
+    },
+    "dependencies": {
+        "electron-shutdown-command": "^2.0.1"
+    }
+}
