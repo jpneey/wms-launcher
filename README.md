@@ -13,5 +13,5 @@ yarn serve
 
 ### Build electron app
 ```
-yarn build
+yarn dist
 ```
